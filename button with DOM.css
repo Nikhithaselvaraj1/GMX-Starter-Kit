@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bootstrap Example</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+#pi{
+text-align:left;
+display:inline-block;
+}
+#ip{
+text-align:right;
+display:inline-block;
+}
+</style>
+</head>
+<body>
+<fieldset>
+<div class="container">
+<h1 align="center"> BUTTON GROUP ALERTS</h1>
+<hr>
+<table class="table table-dark table-hover">
+<thead>
+<tr>
+<th>NAME</th>
+<th>BUTTON</th>
+<th>BUTTON CLOSE</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GREEN</td>
+<td><button type="button" class="btn btn-success">GREEN</button></td>
+<td>
+<div class="alert alert-success alert-dismissible fade in">
+<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+<strong>alert box close!</strong>
+  </div>
+</td>
+</tr>
+<td>RED</td>
+<td><button type="button" class="btn btn-danger">RED</button></td>
+<td>
+<div class="alert alert-danger alert-dismissible fade in">
+<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+<strong>alert box close!</strong>
+  </div>
+</td>
+</tr>
+<tr>
+<td>ORANGE</td>
+<td><button type="button" class="btn btn-warning">ORANGE</button></td>
+<td>
+<div class="alert alert-warning alert-dismissible fade in">
+<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+<strong>alert box close!</strong>
+  </div>
+</td>
+</tr>
+<tr>
+  <td>BLUE</td>
+  <td><button type="button" class="btn btn-info">BLUE</button></td>
+  <td>
+  <div class="alert alert-info alert-dismissible fade in">
+  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+  <strong>alert box close!</strong>
+    </div>
+  </td>
+  </tr><br>
+</tbody>
+</table><br><br>
+<div  class="btn-group btn-group-lg">
+    <button type="button" class="btn btn-success">GREEA</button>
+    <button type="button" class="btn btn-info">BLUE</button>
+    <button type="button" class="btn btn-warning">ORANGE</button>
+    <button type="button" class="btn btn-danger">RED</button>
+  </div><br>
+<div id="pi" class="dropdown">
+<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">color
+<span class="caret"></span></button>
+<ul class="dropdown-menu">
+<li><a href="#">GREEN</a></li>
+<li><a href="#">BLUE</a></li>
+<li><a href="#">ORANGE</a></li>
+<li><a href="#">RED</a></li>
+</ul>
+</div>
+<div id="ip" class="dropup">
+<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">color
+<span class="caret"></span></button>
+<ul class="dropdown-menu">
+<li><a href="#">GREEN</a></li>
+<li><a href="#">BLUE</a></li>
+<li><a href="#">ORANGE</a></li>
+<li><a href="#">RED</a></li>
+</ul>
+</div>
+</fieldset>
+</body>
+</html>
